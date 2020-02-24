@@ -4,7 +4,7 @@ Description=n0stack backup daemon timer
 [Timer]
 OnCalendar=*:00
 Persistent=true
-Unit=n0stack-backup@%i.service
+Unit=n0stack-backup-image.service
 
 [Install]
 WantedBy=timer.target
