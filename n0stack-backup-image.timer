@@ -1,5 +1,5 @@
 [Unit]
-Description=n0stack backup daemon timer
+Description=n0stack image backup
 
 [Timer]
 OnCalendar=*:00
