@@ -2,5 +2,5 @@
 Description=n0stack backup daemon. specify ip address.
 
 [Service]
-ExecStart=/usr/bin/rsync -av --compress -e "ssh -i /fio/sl2500-root.key" root@%i:/var/lib/n0core-backup-02181600 /fio/%i/
+ExecStart=/usr/bin/rsync -av -e "ssh -i /fio/sl2500-root.key" root@%i:/var/lib/n0core /fio/%i/
 Type=simple
