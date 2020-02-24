@@ -1,0 +1,6 @@
+[Unit]
+Description=n0stack backup daemon. specify ip address.
+
+[Service]
+ExecStart=/fio/n0stack-backup/backup.sh
+Type=simple
